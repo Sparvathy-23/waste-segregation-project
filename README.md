@@ -24,8 +24,10 @@ Improper waste segregation is a major issue in everyday environments such as hom
 ## **Project Structure**
 
 ```
-cv_folder/
-└── results/
+waste-segregation-project/
+├── models/
+    ├──waste_model.h5
+├── results/
     ├── battery.png
     ├── cardboard.png
     ├── clothes.png
@@ -39,8 +41,6 @@ cv_folder/
 ├── requirements.txt
 ├── train.py
 ├── webcam_classifier.py
-├── models/
-│   └── waste_model.h5
 ```
 
 ---
