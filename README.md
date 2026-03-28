@@ -1,7 +1,3 @@
-Here is a **complete, high-quality README.md** tailored to your project and evaluation criteria. You can copy this directly into your GitHub.
-
----
-
 # **Waste Segregation using Computer Vision**
 
 ## **Description**
@@ -29,16 +25,22 @@ Improper waste segregation is a major issue in everyday environments such as hom
 
 ```
 cv_folder/
+└── results/
+    ├── battery.png
+    ├── cardboard.png
+    ├── clothes.png
+    ├── glass.png
+    ├── metal.png
+    ├── paper.png
+    ├── plastic.png
+    ├── plastic2.png
+├── README.md
 ├── prepare_data.py
+├── requirements.txt
 ├── train.py
 ├── webcam_classifier.py
-├── requirements.txt
-├── README.md
 ├── models/
 │   └── waste_model.h5
-└── results/
-    ├── output1.png
-    ├── output2.png
 ```
 
 ---
